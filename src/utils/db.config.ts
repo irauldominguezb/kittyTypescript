@@ -1,10 +1,10 @@
 import pg from 'pg'
 
 const connection = {
-    user: 'postgres',
+    user: 'raulDominguez',
     host: 'localhost',
-    database:'kitty',
-    password: 'root',
+    database:'kittyDB',
+    password: '121003',
     port: 5432,
 }
 

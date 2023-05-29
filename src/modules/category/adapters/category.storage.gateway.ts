@@ -29,7 +29,7 @@ export class CategoryGateway implements CategoryRepository {
         }).catch((error)=>{
             console.log(error)
             return this.getError()
-        })
+        })  
     }
 
     async findAll(): Promise<ResponseApi<Category>> {
@@ -46,4 +46,6 @@ export class CategoryGateway implements CategoryRepository {
             return this.getError();
         })
     }
+
+    
 }
